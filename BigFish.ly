@@ -9,7 +9,7 @@
 \include "articulate.ly"
 \include "accordion.ly"
 
-% \pointAndClickOff
+\pointAndClickOff
 
 music = \new GrandStaff <<
   \new Staff {
