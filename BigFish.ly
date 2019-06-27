@@ -16,6 +16,7 @@ music = \new GrandStaff <<
     \set Staff.midiInstrument = # "accordion"
     \clef treble
     \key e \minor
+    \tempo 4=72
     \transpose c g {
       \accordion_r
     }
@@ -34,6 +35,7 @@ display = \new GrandStaff <<
   \new Staff {
     \clef treble
     \key e \minor
+    \tempo 4=72
     \transpose c g {
       \accordion_r
     }
