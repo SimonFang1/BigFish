@@ -2,7 +2,7 @@
 
 \header {
   title = "Big Fish"
-  subtitle = "Theme song of Big Fish & Begonia"
+  subtitle = \markup { "Theme song of " \italic "Big Fish & Begonia" }
   composer = "Qian Lei"
 }
 
@@ -15,7 +15,7 @@ music = \new GrandStaff <<
   \new Staff {
     \set Staff.midiInstrument = # "accordion"
     \clef treble
-    \key e \minor
+    \key e \minor % E羽清乐调式
     \tempo 4=72
     \transpose c g {
       \accordion_r
@@ -37,7 +37,7 @@ display = \new GrandStaff <<
     \key e \minor
     \tempo 4=72
     \transpose c g {
-      \accordion_r
+      \accordion_r_display
     }
   }
   \new Staff {
